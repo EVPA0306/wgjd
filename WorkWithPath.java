@@ -23,7 +23,7 @@ public class WorkWithPath {
 //			System.out.println(e.getMessage());
 //		}
 		
-		Path startDir = Paths.get("P:\\");
+		Path startDir = Paths.get("/");
         //Files.walkFileTree(startDir, new FindJavaVisitor());
         Files.walkFileTree(startDir, new FindVirusedFileVisitor());
 
