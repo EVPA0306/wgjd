@@ -23,7 +23,7 @@ public class WorkWithPath {
 //			System.out.println(e.getMessage());
 //		}
 		
-		Path startDir = Paths.get("/");
+		Path startDir = Paths.get("/Users/evgenypavlenko/Projects/");
         //Files.walkFileTree(startDir, new FindJavaVisitor());
         Files.walkFileTree(startDir, new FindVirusedFileVisitor());
 
@@ -34,9 +34,14 @@ public class WorkWithPath {
     private static class FindVirusedFileVisitor extends SimpleFileVisitor<Path>{
         @Override
         public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
-            if (file.toString().contains("HELP_DECRYPT")) {
-                System.out.println("File has been deleted: " + file.toAbsolutePath().toString() + "\\" + file.getFileName());
-                Files.delete(file);
+            /*try (DirectoryStream<Path> stream = Files.newDirectoryStream(file,"*.java")) {
+                for (Path entry : stream) {
+                    System.out.println(entry.getFileName());
+                }
+            }*/
+            if (file.toString().endsWith(".java")) {
+                System.out.println("File has been deleted: " + file.toAbsolutePath().toString() );
+                //Files.delete(file);
             }
             return FileVisitResult.CONTINUE;
         }

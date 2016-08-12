@@ -1,0 +1,11 @@
+# Compiled source #
+*.class
+
+# Archives #
+*.zip
+
+# Logs #
+*.log
+
+# Mac OS files #
+.DS_Store
