@@ -22,5 +22,10 @@ public class VetClinic {
         //Create Vet
         Veterinarian vetOne = new Veterinarian(appointmentQueue,3000);
         vetOne.start();
+
+        //Pet pet = new Dog("Lessi");
+        //System.out.println(pet.toString());
+        //System.out.println(pet.hashCode());
+        //pet.equals();
     }
 }

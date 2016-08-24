@@ -13,4 +13,5 @@ public class Appointment<T> {
     public T getPatient() {
         return toBeSeen;
     }
+
 }
