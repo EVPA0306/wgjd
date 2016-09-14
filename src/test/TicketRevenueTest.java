@@ -1,5 +1,6 @@
-package com.eap.wgjd.chaptereleven;
+package test;
 
+import com.eap.wgjd.chaptereleven.TicketRevenue;
 import org.junit.Before;
 import org.junit.Test;
 import static junit.framework.Assert.*;

@@ -1,9 +1,0 @@
-com/eap/wgjd/chaptereleven/Price.class
-com/eap/wgjd/chaptereleven/TestTicket.class
-com/eap/wgjd/chaptereleven/Ticket$FixedPrice.class
-com/eap/wgjd/chaptereleven/Ticket.class
-com/eap/wgjd/chaptereleven/TicketHibernateDAOTest.class
-com/eap/wgjd/chaptereleven/BigDecimalTest.class
-com/eap/wgjd/chaptereleven/TicketHibernateDAO.class
-com/eap/wgjd/chaptereleven/TicketRevenue.class
-com/eap/wgjd/chaptereleven/TicketRevenueTest.class

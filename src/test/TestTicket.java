@@ -1,5 +1,6 @@
-package com.eap.wgjd.chaptereleven;
+package test;
 
+import com.eap.wgjd.chaptereleven.Ticket;
 import org.junit.Test;
 //import sun.security.krb5.internal.Ticket;
 import java.math.BigDecimal;
@@ -14,6 +15,6 @@ public class TestTicket {
     public void tenPercentDiscount() {
         String dummyName = "Riley";
         Ticket ticket = new Ticket(new BigDecimal("10"));
-        assertEquals(new BigDecimal("9.0"),ticket.getDiscountPrice());
+        assertEquals(new BigDecimal("10.0"),ticket.getDiscountPrice());
     }
 }

@@ -6,6 +6,7 @@ com/eap/wgjd/miscelaneos/WorkWithProperties.class
 com/eap/wgjd/microblog/TestBlog$3.class
 com/eap/wgjd/miscelaneos/SetupTQ.class
 com/eap/wgjd/microblog/ExampleTimingNode.class
+test/TicketHibernateDAOTest.class
 com/eap/wgjd/patterns/Car$1.class
 com/eap/wgjd/hollywood/SpreadSheetAgentFinder.class
 com/eap/wgjd/patterns/CreateACar.class
@@ -13,16 +14,16 @@ com/eap/wgjd/chapterfive/ScratchImpl.class
 com/eap/wgjd/miscelaneos/TestCME.class
 com/eap/wgjd/patterns/Builder.class
 com/eap/wgjd/chaptereleven/Ticket.class
-com/eap/wgjd/chaptereleven/TicketHibernateDAOTest.class
 com/eap/wgjd/miscelaneos/ProducerTQ.class
 com/eap/wgjd/miscelaneos/ProducerLBQ.class
-com/eap/wgjd/chaptereleven/BigDecimalTest.class
+test/TestTicket.class
 com/eap/wgjd/chaptereleven/TicketRevenue.class
 com/eap/wgjd/hollywood/HollywoodServiceGuice.class
 com/eap/wgjd/hollywood/AgentFinder.class
 com/eap/wgjd/hollywood/HollyWoodServiceWithFactory.class
 com/eap/wgjd/microblog/TestBlog$2.class
 com/eap/wgjd/hollywood/Agent.class
+test/BigDecimalTest.class
 com/eap/wgjd/chaptereleven/TicketHibernateDAO.class
 com/eap/wgjd/miscelaneos/Producer.class
 com/eap/wgjd/hollywood/AgentFinderModule.class
@@ -35,6 +36,7 @@ com/eap/wgjd/vet/VetClinic.class
 com/eap/wgjd/hollywood/HollyWoodService.class
 com/eap/wgjd/miscelaneos/Consumer.class
 com/eap/wgjd/miscelaneos/TestCME$1.class
+test/TicketRevenueTest.class
 com/eap/wgjd/microblog/MicroBlogNode.class
 com/eap/wgjd/miscelaneos/SetupLBQ.class
 com/eap/wgjd/hollywood/HollywoodServiceWithDI.class
@@ -48,12 +50,10 @@ com/eap/wgjd/patterns/Car.class
 com/eap/wgjd/WorkWithPath$FindVirusedFileVisitor.class
 com/eap/wgjd/hollywood/HollywoodServiceClient.class
 com/eap/wgjd/vet/Dog.class
-com/eap/wgjd/chaptereleven/TicketRevenueTest.class
 com/eap/wgjd/microblog/TestBlog$1.class
 com/eap/wgjd/miscelaneos/Setup.class
 com/eap/wgjd/hollywood/AgentFinderFactory.class
 com/eap/wgjd/miscelaneos/Product.class
-com/eap/wgjd/chaptereleven/TestTicket.class
 com/eap/wgjd/miscelaneos/TestCME$2.class
 com/eap/wgjd/microblog/Update$1.class
 com/eap/wgjd/nio2/StyleWithFuture.class

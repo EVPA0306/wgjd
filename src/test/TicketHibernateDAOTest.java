@@ -1,5 +1,7 @@
-package com.eap.wgjd.chaptereleven;
+package test;
 
+import com.eap.wgjd.chaptereleven.Ticket;
+import com.eap.wgjd.chaptereleven.TicketHibernateDAO;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 import org.junit.*;

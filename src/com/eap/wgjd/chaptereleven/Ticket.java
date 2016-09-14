@@ -47,12 +47,12 @@ public class Ticket {
         this.price = new BigDecimal(BASIC_TICKETED_PRICE);
     }
 
-    Ticket(long ticketId) {
+    public Ticket(long ticketId) {
         this.ticketId = ticketId;
         this.price = new BigDecimal(BASIC_TICKETED_PRICE);
     }
 
-    Ticket(BigDecimal price) {
+    public Ticket(BigDecimal price) {
         this.price = price;
     }
 
