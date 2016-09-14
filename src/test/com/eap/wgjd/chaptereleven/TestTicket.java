@@ -1,4 +1,4 @@
-package test;
+package com.eap.wgjd.chaptereleven;
 
 import com.eap.wgjd.chaptereleven.Ticket;
 import org.junit.Test;

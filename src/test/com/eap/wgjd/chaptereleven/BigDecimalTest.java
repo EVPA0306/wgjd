@@ -1,4 +1,4 @@
-package test;
+package com.eap.wgjd.chaptereleven;
 
 import org.junit.After;
 import org.junit.Before;

@@ -51,8 +51,8 @@
   </dependencies>
 
   <build>
-    <sourceDirectory>/Users/evgenypavlenko/Projects/wgjd/src</sourceDirectory>
-    <!-- <testSourceDirectory>/Users/evgenypavlenko/Projects/wgjd/src/com/eap/wgjd/chaptereleven</testSourceDirectory> -->
+    <sourceDirectory>/Users/evgenypavlenko/Projects/wgjd/src/main/</sourceDirectory>
+    <testSourceDirectory>/Users/evgenypavlenko/Projects/wgjd/src/test/</testSourceDirectory>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>

@@ -1,4 +1,4 @@
-package test;
+package com.eap.wgjd.chaptereleven;
 
 import com.eap.wgjd.chaptereleven.Ticket;
 import com.eap.wgjd.chaptereleven.TicketHibernateDAO;
@@ -23,7 +23,8 @@ public class TicketHibernateDAOTest {
     @BeforeClass
     public static void baseSetUp() {
         factory = new Configuration()
-                .configure("/resources/hibernate.cfg.xml")
+                //.configure("/resources/hibernate.cfg.xml")
+                .configure("hibernate.cfg.xml")
                 .buildSessionFactory();
         ticketDAO = new TicketHibernateDAO(factory);
     }
